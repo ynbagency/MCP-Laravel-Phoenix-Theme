@@ -14,6 +14,8 @@ import { register as registerSearchTheme } from './tools/search-theme.js';
 import { register as registerGetThemeVariables } from './tools/get-theme-variables.js';
 import { register as registerListApps } from './tools/list-apps.js';
 import { register as registerGetAppStructure } from './tools/get-app-structure.js';
+import { register as registerListHtmlPages } from './tools/list-html-pages.js';
+import { register as registerGetHtmlPage } from './tools/get-html-page.js';
 
 // Tools — Laravel Generation
 import { register as registerGenerateBladeComponent } from './tools/generate-blade-component.js';
@@ -40,6 +42,8 @@ registerSearchTheme(server);
 registerGetThemeVariables(server);
 registerListApps(server);
 registerGetAppStructure(server);
+registerListHtmlPages(server);
+registerGetHtmlPage(server);
 registerGenerateBladeComponent(server);
 registerGenerateBladePage(server);
 registerGenerateLaravelScaffold(server);
